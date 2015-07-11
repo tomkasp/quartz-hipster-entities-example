@@ -9,7 +9,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 
 @Configuration
-public class DataSourceTemp {
+public class YourDataSourceConfiguration {
 
     @Bean
     public DataSource dataSource()  {
