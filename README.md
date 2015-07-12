@@ -7,12 +7,15 @@ It's a simple spring 4 MVC application.
 
 ## How to run quartz hipster entities in your project step by step. 
 
-** Add a dependency to your project
+* Add a dependency to your project
 
-        <dependency>
-            <groupId>com.tomkasp</groupId>
-            <artifactId>quartz-hipster-entities</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+```xml
+<dependency>
+    <groupId>com.tomkasp</groupId>
+    <artifactId>quartz-hipster-entities</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
+```
         
-** Enable project in 
+* Enable library in your project with @EnableQuartzHipster annotation. 
+ 
